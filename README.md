@@ -48,5 +48,5 @@ pip install -r requirements.txt
 
 ### Running the code
 
-Open Notebook `main.ipynb` and run all the cells.
+Open Notebook `main_new.ipynb` and run all the cells.
 
