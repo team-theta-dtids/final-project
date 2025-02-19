@@ -19,3 +19,4 @@ category-encoders
 xgboost
 imbalanced-learn
 ipython
+lightgbm
