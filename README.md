@@ -12,6 +12,14 @@ This project is a comprehensive analysis of a bank marketing campaign dataset. T
 
 The dataset used in this project is the Bank Marketing Campaign dataset, which can be found [here](https://www.kaggle.com/code/benroshan/bank-marketing-campaign-predictive-analytics).
 
+## Data Visualization
+
+Tableau Dashboard: [Bank Marketing Campaign Analysis](https://public.tableau.com/app/profile/puji.maryane/viz/BankMarketingCampaign_17404888788890/Dashboard1)
+
+### Dashboard
+
+![Dashboard](./team_teta_tableau.png)
+
 ## How to run the code
 
 ### Prerequisites
@@ -50,15 +58,7 @@ pip install -r requirements.txt
 
 Open Notebook `main_new.ipynb` and run all the cells.
 
-## Data Visualization
-
-Tableau Dashboard: [Bank Marketing Campaign Analysis](https://public.tableau.com/app/profile/puji.maryane/viz/BankMarketingCampaign_17404888788890/Dashboard1)
-
-### Dashboard
-
-![Dashboard](./team_teta_tableau.png)
-
-# Contribution
+# Contributors
 
 - [Puji Maryane](https://github.com/pujimaryanepn)
 - [Timothy Chiesa](https://github.com/timothyciesha)
