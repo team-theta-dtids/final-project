@@ -50,3 +50,16 @@ pip install -r requirements.txt
 
 Open Notebook `main_new.ipynb` and run all the cells.
 
+## Data Visualization
+
+Tableau Dashboard: [Bank Marketing Campaign Analysis](https://public.tableau.com/app/profile/puji.maryane/viz/BankMarketingCampaign_17404888788890/Dashboard1)
+
+### Dashboard
+
+![Dashboard](./team_teta_tableau.png)
+
+# Contribution
+
+- [Puji Maryane](https://github.com/pujimaryanepn)
+- [Timothy Chiesa](https://github.com/timothyciesha)
+- [Andre Suchitra](https://github.com/andresuchdata)
