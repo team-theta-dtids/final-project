@@ -126,8 +126,8 @@ if page == "Model Performance":
     
     # Load preprocessed test data
     try:
-        X_test = pd.read_csv("X_test.csv")  # Replace with your test dataset path
-        y_test = pd.read_csv("y_test.csv")['y']  # Replace with your test labels path
+        X_test = pd.read_csv("output/X_test.csv")  # Replace with your test dataset path
+        y_test = pd.read_csv("output/y_test.csv")['y']  # Replace with your test labels path
     except FileNotFoundError:
         st.error("Test data files (X_test.csv and y_test.csv) not found. Please ensure they are in the correct directory.")
         st.stop()
