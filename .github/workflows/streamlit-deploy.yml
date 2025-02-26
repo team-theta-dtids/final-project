@@ -1,0 +1,29 @@
+name: Deploy to Streamlit Cloud
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'output/*.pkl'  # Trigger when model files change
+      - 'app.py'        # Or when app code changes
+      - 'requirements.txt'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Trigger Streamlit Cloud Redeployment
+        run: |
+          # This creates a commit that triggers Streamlit Cloud to redeploy
+          # The commit doesn't change any files, it just triggers the webhook
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          
+          # Create an empty commit with a message that indicates it's for deployment
+          git commit --allow-empty -m "Trigger Streamlit Cloud redeployment"
+          git push 
