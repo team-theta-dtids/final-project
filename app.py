@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
 
 # Load the saved model and preprocessing pipeline
-model_filename = "xgboost_model.pkl"
+model_filename = "output/xgboost_model.pkl"
 with open(model_filename, 'rb') as file:
     pipeline_xgb = pickle.load(file)
 

@@ -18,7 +18,7 @@ Tableau Dashboard: [Bank Marketing Campaign Analysis](https://public.tableau.com
 
 ### Dashboard
 
-![Dashboard](./team_teta_tableau.png)
+![Dashboard](assets/team_teta_tableau.png)
 
 ## How to run the code
 
